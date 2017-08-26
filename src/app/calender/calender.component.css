@@ -1,0 +1,48 @@
+/*blueboundary*/
+
+.x{
+    border-style: solid;
+    border-color: #0000ff;
+}
+
+/*yellow bounaray*/
+.y{
+    border-style: solid;
+    border-color: orange;
+}
+
+/*orange boundary*/
+.z{
+    border-style: solid;
+    border-color:purple;
+}
+
+.p{
+    border-style: solid;
+    border-color:red;
+}
+
+
+
+.fullheight
+{
+    height:100%;
+     display: block;
+}
+
+
+
+body, html, .container-fluid  {
+         height: 100%;
+         }
+
+
+.fullpage
+ {
+position: absolute;
+top: 0;
+bottom: 0;
+right:0;
+left: 0;
+background-color: yellow;
+   }

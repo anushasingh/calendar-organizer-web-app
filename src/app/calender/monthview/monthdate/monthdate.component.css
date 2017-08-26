@@ -1,0 +1,64 @@
+.fullheight
+{
+    height:100%;
+     display: block;
+     background-color: #40CCC5;
+     border-radius: 3px;
+     
+/*
+      margin: 10,10,10,10;
+    padding: 10;*/
+     
+}
+
+ .container-fluid {
+         height: 100%;
+    }
+    .fullpage
+ {
+       position: absolute;
+top: 0;
+bottom: 0;
+right:0;
+left: 0;
+background-color: #40CCC5;
+   }
+
+   .centered{
+    margin: 5px;
+    padding: 0;
+    text-align: right; 
+    left:100000px;
+  right:100px;
+    }
+
+    .hlight
+    {
+       background-color: #A74151;
+    }
+
+    .eventnolight
+    {
+    background-color: #DBC9B6;
+    }
+    .eventnodark
+    {
+       background-color: #2D6660;
+       
+    }
+
+    h6
+    {
+      color: #ffffff;
+      margin-left:2px;
+      min-height: 8px;
+      margin-top: 2px;
+      padding: 4px;
+
+      
+    }
+    .height
+    {
+      /*height: 25px;*/
+      font-family:  Helvetica, sans-serif;
+    }

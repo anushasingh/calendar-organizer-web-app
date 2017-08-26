@@ -1,0 +1,47 @@
+<div class="container-fluid">
+
+ <div class="row">
+
+   <div class="col-md-10">
+
+ 
+     <h1 class="customfont">
+ 
+Organiser
+</h1>
+   </div>
+    <div class="col-md-2">
+
+<div class="container-fluid">
+
+          <div class="row"  style="height:50%; display: block; ">
+       <div class="col-md-12" style="color:white ;margin-top:3px;">
+        <h4>
+{{email}}
+        </h4>
+
+
+       </div>
+     </div>
+</div>
+<div class="container-fluid">
+     <div class="row"  style="height:50%; display: block; ">
+       <div class="col-md-12">
+         <button type="button" class="btn btn-link btn-xs right" (click)="logout()" *ngIf="authService.user | async">Logout</button>
+
+
+
+       </div>
+     </div>
+     </div>
+  
+    
+   </div>
+ </div>
+</div>
+
+ 
+ 
+  
+
+

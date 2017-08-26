@@ -1,0 +1,23 @@
+.fullheight
+{
+    height:100%;
+     display: block;
+    
+}
+
+ .container-fluid {
+         height: 100%;
+    }
+    .fullpage
+ {
+       position: absolute;
+top: 0;
+bottom: 0;
+right:0;
+left: 0;
+
+   }
+.side
+{
+    background-color: #0D9891;
+}

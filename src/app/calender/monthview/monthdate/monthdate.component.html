@@ -1,0 +1,19 @@
+  <div  class="fullheight fullpage " (click)="sendlist()" [ngClass]="{'hlight': whlight }"  > 
+    <div class="centered">
+      <h4 style="color:black;">  {{x}}</h4>
+       </div>
+       <div  *ngIf="cevent()"  class="height" [style.background-color]="whlight==true ?'#DBC9B6':' #2D6660' "  >
+         
+        <h6> {{events[0]}} events</h6>
+
+       </div>  
+    <!--getting no. of events-->
+
+       <!--{{events[0]}} -->
+
+     
+       </div>
+
+
+
+ 

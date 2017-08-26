@@ -1,0 +1,33 @@
+
+
+
+
+
+h1{
+    color: white;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 10px;
+
+   /*font-family: " BernhardFashion BT ", Georgia, Serif;*/
+}
+h4{
+    color: white;
+    text-align: right;
+  margin-left: 63px;
+    margin-top: 14px;
+    font-weight: 100;
+    opacity: 0.7;
+   margin-top: 6px;
+    padding: 0;
+   /*margin-left: 50px;*/
+}
+.right
+{
+   text-align: right;
+  margin-left: 150px;
+  padding: 0;
+  color: white;
+  opacity: 0.7;
+  font-family: Arial, Helvetica, sans-serif;
+}

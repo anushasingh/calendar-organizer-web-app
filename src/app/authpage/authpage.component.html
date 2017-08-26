@@ -1,0 +1,86 @@
+
+
+
+
+<div class="fullpage">
+
+<div class="container-fluid">
+<!--heading-->
+<div class="row"  style=" height:16%; display: block; ">
+<div class="col-xs-12 col-md-12"  style=" background-color:#84B9BD; height:100%; display: block;">
+<h1 class="customfont2 big">
+  Organiser
+</h1>
+
+</div>
+
+</div>
+
+
+
+<div class="row"  style=" height:68%; display: block; ">
+
+<div class="col-xs-12 col-md-1"  style=" background-color:#84B9BD; height:100%; display: block;"></div>
+
+<div class="col-xs-12 col-md-5"  style=" background-color:#84B9BD; height:100%; display: block;"><img class="imgs" src="assets/aa.jpg" alt="Mountain View" style="width:500px;height:450px;">
+</div>
+
+
+<div class="col-xs-12 col-md-1"  style=" background-color:#84B9BD; height:100%; display: block;"></div>
+
+
+<div class="col-xs-12 col-md-3"  style=" background-color:#84B9BD; height:100%; display: block;">
+  
+<div class="row" style="background-color:#84B9BD; height:20%; display: block; ">
+
+
+
+
+</div>
+<div class="row" style="background-color:#84B9BD; height:35%; display: block; ">
+
+<form>
+  <div class="form-group">
+    <input type="email"  [(ngModel)]="email" name="email" class="form-control"  placeholder="Email" >
+  </div>
+</form>
+<br>
+<form>
+  <div class="form-group">
+    <input type="password" [(ngModel)]="password" name="passowrd" class="form-control"  placeholder="Password">
+  </div>
+</form>
+
+
+</div>
+<div class="row" style="background-color:#84B9BD; height:10%; display: block; ">
+<button (click)="signuporsigin()"class="btn btn-primary  bb"   >
+    {{btnmsg}}
+  </button>
+
+
+ 
+</div>
+
+<div class="row" style="background-color:#84B9BD; height:20%; display: block; ">
+
+
+
+  <button  class="btn btn-link" (click)="msgbtn()" style="color:darkblue; " [style.margin-left]="toggle==true ?'88px':' 100px' "  >
+    {{msg}}
+  </button>
+</div>
+  
+  </div>
+<div class="col-xs-12 col-md-2"  style=" background-color:#84B9BD; height:100%; display: block;"></div>
+
+</div>
+
+<div class="row"  style=" background-color:#84B9BD; height:16%; display: block; ">
+<div class="col-xs-12 col-md-12"  style=" background-color:#84B9BD; height:100%; display: block;"></div>
+
+</div>
+
+</div>
+
+</div>

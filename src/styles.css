@@ -1,0 +1,17 @@
+
+
+@font-face {
+    font-family: "My Custom Font";
+        
+     
+    src: url("./bernhardfashionbt.ttf") format("truetype");
+}
+
+.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+     font-weight:500;
+}
+.customfont2 { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+     font-weight:900;
+}

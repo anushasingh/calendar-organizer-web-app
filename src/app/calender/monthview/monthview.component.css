@@ -1,0 +1,55 @@
+/*blueboundary*/
+
+.x{
+    border-style: solid;
+    border-color: #0D9891;
+  
+}
+
+/*yellow bounaray*/
+.y{
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+/*orange boundary*/
+.z{
+    border-style: solid;
+    border-color:#ffffff;
+}
+
+.p{
+    border-style: solid;
+    border-color:red;
+}
+
+
+
+.fullheight
+{
+    height:100%;
+     display: block;
+}
+
+
+
+ body, html, .container-fluid  {
+         height: 100%;
+    }
+.side
+{
+    background-color: #0D9891;
+}
+.w
+{
+    background-color: #000000;
+    
+}
+.add
+{
+    margin-top:14px;
+}
+.textmonth
+{
+    margin-top:20px;
+}

@@ -1,0 +1,20 @@
+table tr td{
+    background-color: #A74151!important;
+     border-radius: 2px;
+     border-color: #0D9891;
+    margin-top:100px;
+    border-width: 10px;
+    /*color: black;*/
+}
+ table tr th{
+    background-color: #000000!important;
+      border-radius: 2px;
+     border-color: #0D9891;
+    margin-top:100px;
+    border-width: 10px;
+}
+.h5
+{
+    color: white;
+}
+.top-buffer { margin-top:20px; }

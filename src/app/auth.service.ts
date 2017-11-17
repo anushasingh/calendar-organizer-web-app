@@ -50,10 +50,11 @@ export class AuthService {
          var name   = email.substring(0, email.lastIndexOf("@"));
        
          this.useremail = firebase.auth().currentUser.email;
-         
+         console.log("login");
           // this.check();
       })
       .catch(err => {
+        
       alert("Something went wrong:"+err.message);
       });
 

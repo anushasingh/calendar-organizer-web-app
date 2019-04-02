@@ -7,7 +7,7 @@
 export const environment = {
    production: false,
   firebase: {
-apiKey: "AIzaSyBrvmogJmdub_m-RRInA0IN71ff9r4HscA",
+apiKey: " ",
     authDomain: "planner-bad68.firebaseapp.com",
     databaseURL: "https://planner-bad68.firebaseio.com",
     projectId: "planner-bad68",
